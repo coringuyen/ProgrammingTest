@@ -65,15 +65,19 @@
 
 #include <iostream>
 #include "Boggle.h"
+#include "Boggle2.h"
 
 int main(const int argc, const char* const argv[])
 {
 	//Boggle *boggle = new Boggle("board_1.txt", "dictionary.txt");
 	//boggle->Solve();
 
+	Boggle2 *boggle2 = new Boggle2("board_1.txt", "dictionary.txt");
+
 	if (argc != 4)
 	{
 		std::cerr << "Usage: BoggleTest <dictionary_filename> <board_filename> <output_filename>" << std::endl;
+		boggle2->Output();
 		system("pause");
 		return -1;
 		

@@ -119,10 +119,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Boggle.cpp" />
+    <ClCompile Include="Boggle2.cpp" />
     <ClCompile Include="BoggleTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Boggle.h" />
+    <ClInclude Include="Boggle2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
